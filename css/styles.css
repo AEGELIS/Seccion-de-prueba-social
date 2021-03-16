@@ -73,19 +73,20 @@ body{
 .testimonial{
     background-color: var(--darkmagenta);
     border-radius: 8px;
-    padding: 20px 5px;
+    padding: 2rem;
     margin-bottom: 15px;
 }
 
 .testimonial-header{
-    padding: 25px 0 0 0;
+    margin-bottom: 1.5rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 .testimonial-image{
-    max-width: 18%;
+    width: 40px;
+    height: 40px;
     display: block;
     border-radius: 50%;
 }
@@ -94,15 +95,18 @@ body{
     color: var(--white);
     font-size: 15px;
     margin: 0;
+    margin-left: 30px;
 }
 
 .testimonial-subtitle{
     color: var(--softmagenta);
     margin: 0;
+    margin-left: 30px;
 }
 
 .testimonial-text{
     color: var(--white);
     font-size: 14px;
     line-height: 20px;
+    margin: 0;
 }
